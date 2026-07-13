@@ -59,7 +59,7 @@ llvm-mingw.${version}.msvcrt
 
 `version` is a tag name of the release (e.g. `20260616`).
 
-See [Tags](https://github.com/mstorsjo/llvm-mingw/releases/tags) for the full list of tags.
+See [Tags](https://github.com/mstorsjo/llvm-mingw/tags) for the full list of tags.
 
 See [hash.nix](./hash.nix) for the available list of tags.
 
