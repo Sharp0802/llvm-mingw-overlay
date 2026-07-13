@@ -57,4 +57,4 @@ let
   };
 in
   mapAttrs (ver: _hash: mkVersion ver) versions
-  // { latest = mkVersion (head (attrNames versions)); }
+  // { latest = (mkVersion (head (attrNames versions))).value; }
