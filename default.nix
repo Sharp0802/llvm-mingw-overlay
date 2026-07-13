@@ -16,7 +16,7 @@ let
       version = "${ver}";
 
       src = pkgs.fetchurl {
-        url = "https://github.com/mstorsjo/llvm-mingw/releases/downloads/${ver}/llvm-mingw-${ver}-${crt}-ubuntu-22.04-${arch}.tar.xz";
+        url = "https://github.com/mstorsjo/llvm-mingw/releases/download/${ver}/llvm-mingw-${ver}-${crt}-ubuntu-22.04-${arch}.tar.xz";
         hash = mkHash inputs;
       };
 
