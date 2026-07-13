@@ -1,0 +1,7 @@
+{
+  "20260616" = {
+    msvcrt.x86_64 = "sha256:a1f7968b48ba8d949194d6dee6c76f3cd0f61cba91658599af2c2c834a55ab87";
+    ucrt.x86_64 = "sha256:534b92e067b22a6b4441f48ae9240a3341b17825d04d577eab0cf85c44b4deda";
+    ucrt.aarch64 = "sha256:e7e5d135d93d3f2a3beaaea633a5b0e66ac75391a53feae654391913dd76102b";
+  };
+}
