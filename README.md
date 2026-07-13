@@ -1,6 +1,8 @@
 # llvm-mingw-overlay
 
-A simple overlay for LLVM-based mingw-w64 toolchain for flakes.
+An overlay for LLVM-based mingw-w64 toolchain for flakes.
+
+This simply exposes prebuilt things of [`llvm-mingw`](https://github.com/mstorsjo/llvm-mingw) repository from its releases.
 
 Supported systems:
 
